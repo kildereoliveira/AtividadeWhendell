@@ -1,0 +1,157 @@
+
+/* Estilo geral da página */
+
+body {
+    background-color: #f0f2f5;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+    transition: 0.3s;
+}
+
+/* Conteúdo principal */
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+
+    border-radius: 12px;
+}
+
+/* Título principal */
+
+h1 {
+    text-align: center;
+    color: #1565c0;
+}
+
+/* Títulos das seções */
+
+h2 {
+    color: #1976d2;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 5px;
+}
+
+/* Imagem */
+
+.foto {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+
+    margin: 20px auto;
+
+    border-radius: 15px;
+}
+
+/* Parágrafos */
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Lista */
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Link */
+
+a {
+    color: #1565c0;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+/* Botões */
+
+button {
+    background-color: #1976d2;
+    color: white;
+
+    border: none;
+    padding: 12px 18px;
+
+    border-radius: 8px;
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+
+button:hover {
+    background-color: #0d47a1;
+    transform: scale(1.03);
+}
+
+/* Espaçamento dos botões */
+
+.botoes {
+    margin-top: 20px;
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777777;
+}
+
+/* Modo escuro */
+
+body.escuro {
+    background-color: #121212;
+    color: #eeeeee;
+}
+
+body.escuro .container {
+    background-color: #242424;
+}
+
+body.escuro h1,
+body.escuro h2 {
+    color: #64b5f6;
+}
+
+body.escuro h2 {
+    border-bottom-color: #444444;
+}
+
+body.escuro a {
+    color: #90caf9;
+}
+
+body.escuro footer {
+    color: #aaaaaa;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .foto {
+        width: 200px;
+    }
+}
